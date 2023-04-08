@@ -6,7 +6,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 32px;
-    background-color: rgba(94, 55, 115, 255);
+    background-color: rgb(94, 55, 115);
 }
 
 .unity-button.primary {
@@ -17,10 +17,22 @@
     background-color: rgb(157, 126, 173);
 }
 
+.unity-button:focus {
+    background-color: rgb(186, 155, 201);
+}
+
 .unity-group-box {
     color: white;
 }
 
 .unity-button {
     color: white;
+}
+
+.notFocusable {
+    background-color: grey;
+}
+
+.notFocusable:hover {
+    background-color: grey;
 }
